@@ -1,0 +1,1017 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+
+.block /* Block wrapper */ {
+  margin-bottom: 1.5em;
+}
+
+.block.first /* The first block in the region */ {
+}
+
+.block.last /* The last block in the region */ {
+}
+
+.block.odd /* Zebra striping for each block in the region */ {
+}
+
+.block.even /* Zebra striping for each block in the region */ {
+}
+
+h2.block-title /* Block title */ {
+  display: none;
+}
+
+.block .content /* Block's content wrapper */ {
+}
+
+#block-aggregator-category-1 /* Block for the latest news items in the first category */ {
+}
+
+#block-aggregator-feed-1 /* Block for the latest news items in the first feed */ {
+}
+
+/* Block 4: Site Logo */
+#block-block-4 {
+  float: left;
+  margin-top: 5px;
+}
+
+#block-block-4 p {
+  margin: 0px;
+}
+
+/* Block 5: Site Banner */
+#block-block-5 .content {
+	position: relative;
+}
+
+#block-block-5 .button {
+	position: absolute;
+	width: 260px;
+	height: 71px;
+	right: 16px;
+	bottom: 75px;
+	background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/bgBannerButton.png);
+	background-repeat: no-repeat;
+	z-index: 400;
+}
+
+#block-block-5 .button a {
+	width: 260px;
+	height: 71px;
+	display: block;
+}
+
+#block-block-5 #slideshow {
+	position: relative;
+	width: 920px;
+	height: 400px;
+	background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/BannerHomeShadow.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 32px;
+	margin: 0px auto;
+}
+
+#block-block-5 #rotate-banner {
+	margin: 0 auto;
+	text-align: left;
+	background: transparent;
+	display: block;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+	width: 920px;
+	box-shadow: 0px 1px 2px #333;
+	-moz-box-shadow: 0px 0px 2px #333;
+	-webkit-box-shadow: 0px 0px 2px #333;
+}
+
+#block-block-5 #rotate-banner div {
+	display: block;
+	height: 400px;
+	width: 920px;
+	z-index: 50;
+}
+
+#block-block-5 #rotate-banner .bannerPrev,#block-block-5 #rotate-banner .bannerNext {
+	display: none;
+	visibility: hidden;
+}
+
+#block-block-5 #rotate-banner ul.bannerList {
+	height: 16px;
+	line-height: 16px;
+	position: absolute;
+	bottom: 15px;
+	z-index: 100;
+	margin: 0px;
+	left: 5px;
+}
+
+#block-block-5 #rotate-banner .bannerList li {
+	float: left;
+	list-style-type: none;
+	margin: 0 6px 0 0;
+}
+
+#block-block-5 #rotate-banner .bannerList li a {
+	background-color: transparent;
+	background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/buttons.png);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	width: 16px;
+	font-size: 0px;
+	color: transparent;
+}
+
+#block-block-5 #rotate-banner .bannerList a:hover, #block-block-5 #rotate-banner .bannerList a.selected {
+	background-position: 0px -16px;
+	color: transparent;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#block-banner-resort {
+	margin: 40px auto 0px auto;
+	padding-bottom: 32px;
+	background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/BannerHomeShadow.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#block-banner-resort #banner{
+	clear: both;
+	width: 920px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	margin: 0px auto;
+	box-shadow: 0px 1px 2px #333;
+	-moz-box-shadow: 0px 0px 2px #333;
+	-webkit-box-shadow: 0px 0px 2px #333;
+}
+
+/* Block 6: Big Day */
+#block-block-6 {
+}
+
+#block-block-6 .content {
+	width: 354px;
+	height: 128px;
+	margin: 0px auto;
+}
+
+#block-block-6 .content .bigDay a {
+	width: 354px;
+	height: 128px;
+	background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/bigDay.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: block;
+}
+
+#block-block-6 .content .bigDay a:hover {
+	background-position: -354px top;
+}
+
+/* Block 7: Facebook Links */
+#block-block-7 {
+	font-family: Georgia,"Times New Roman",Times,serif;
+	color: #7F7F7F;
+	padding-top: 20px;
+	font-style: italic;
+	font-size: 12px;
+	margin: 30px auto 0 auto;
+	height: 50px;
+	width: 980px;
+}
+
+#block-block-7 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#block-block-7 a:hover {
+	text-decoration: underline;
+}
+
+#block-block-7 ul {
+	margin: 5px 0px 20px 0px;
+	padding: 0px;
+	float: left;
+}
+
+#block-block-7 ul li {
+	padding: 0px 10px;
+	display: inline;
+	list-style: none;
+}
+
+#block-block-7 ul li a {
+	padding: 10px 10px 10px 35px;
+	background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/iconFacebook.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	color: #7F7F7F;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #FFF;
+}
+
+#block-block-7 .copywright {
+	float: right;
+	margin: 5px 0px 20px 0px;
+	text-shadow: 0px 1px 0px #FFF;
+}
+
+#block-blog-recent /* "Recent blog posts" block */ {
+}
+
+#block-book-navigation /* "Book navigation" block for the current book's table of contents */ {
+}
+
+#block-comment-recent /* "Recent comments" block */ {
+}
+
+#block-forum-active /* "Active forum topics" block */ {
+}
+
+#block-forum-new /* "New forum topics" block */ {
+}
+
+#block-locale-language /* Language switcher block */ {
+}
+
+#block-menu-menu-NAME /* Custom menu block  */ {
+}
+
+#block-node-recent /* "Recent content" block */ {
+}
+
+#block-node-syndicate /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */ {
+}
+
+#block-poll-recent /* "Most recent poll" block */ {
+}
+
+#block-profile-author-information /* "Author information" block for the profile of the page's author */ {
+}
+
+#block-search-form /* "Search form" block */ {
+}
+
+#block-shortcut-shortcuts /* "Shortcuts" block */ {
+}
+
+#block-statistics-popular /* "Popular content" block */ {
+}
+
+#block-system-main-menu /* "Main menu" block */ {
+  float: right;
+}
+
+#block-system-main-menu ul /* "Main menu" block style */ {
+  height: 85px;
+  margin: 0px;
+  padding: 0px 2px 0px 0px;
+  background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/menuBorder.png);
+  background-repeat: repeat-y;
+  background-position: right center;
+}
+
+#block-system-main-menu ul li /* "Main menu" block link style */ {
+  display: inline-block;
+  float: left;
+  margin: 0px;
+  padding-left: 2px;
+  background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/menuBorder.png);
+  background-repeat: repeat-y;
+  background-position: left center;
+}
+
+#block-system-main-menu ul li a /* "Main menu" block link text style */ {
+  display: block;
+  float: left;
+  height: 85px;
+  padding: 0px 20px;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  font-style: italic;
+  color: #FFF;
+  font-size: 12px;
+  line-height: 85px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #999;
+  text-align: center;
+}
+
+#block-system-main-menu ul li a:hover,#block-system-main-menu ul li.active-trail a /* "Main menu" block link text hover style */ {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/menuHover.png);
+}
+
+#block-system-management /* "Management" block for Drupal management menu */ {
+}
+
+#block-system-navigation /* "Navigation" block for Drupal navigation menu */ {
+}
+
+#block-system-user-menu /* "User menu" block for Drupal user menu */ {
+}
+
+#block-system-help /* "System help" block */ {
+}
+
+#block-system-main /* "Main page content" block */ {
+}
+
+#block-system-powered-by /* "Powered by Drupal" block */ {
+}
+
+#block-dev-info /* "Developer Information" block */ {
+	clear: both;
+	text-align:center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#block-dev-info .content /* "Developer Information" block content */ {
+	width: 450px;
+	margin: 0 auto;
+}
+
+.block-admin-subheading /* "Administration Subheading" class */ {
+	width: 840px;
+	margin: 0px auto;
+	text-align:left;
+}
+
+.user-menu /* "User Menu" class */ {
+	margin: 0px;
+	width: 100%;
+}
+
+.user-menu .content /* "User Menu" class content */ {
+	margin: 5px auto;
+	width: 800px;
+	text-align: center;
+}
+
+.user-menu .content button /* "User Menu" class content input tag */ {
+	margin: 0px 5px;
+}
+
+#block-user-login /* "User Login" block */ {
+	margin: 0px auto;
+	width: 500px;
+}
+
+#block-user-login #username-wrapper /* "User Login" block email wrapper */ {
+	float: left;
+	margin-right: 25px;
+}
+
+#block-user-login #password-wrapper /* "User Login" block password wrapper */ {
+	float: left;
+	margin-right: 25px;
+}
+
+#block-user-login #submit-wrapper /* "User Login" block submit wrapper */ {
+	float: right;
+	padding-top: 36px;
+}
+
+#block-user-login #username {
+	width: 165px;
+}
+
+#block-user-login #password {
+	width: 165px;
+}
+
+#block-login-status p /* "Login Status" block text */ {
+	text-align: center;
+	padding: 0px;
+	margin:0px;
+	clear: both;
+}
+
+#block-blog-form /* "Blog Form" block style */ {
+	background-color: white;
+	padding: 10px 20px 0px 20px;
+	width: 515px;
+	margin: 25px auto 0px auto;
+	box-shadow: 0px 1px 3px #666;
+	-moz-box-shadow: 0px 0px 3px #666;
+	-webkit-box-shadow: 0px 0px 3px #666;
+}
+
+#block-blog-form .done {
+	color: green;
+}
+
+#block-blog-form .title {
+	border-bottom: dotted 1px #CCC;
+	text-align: center;
+	font-style: normal;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+#block-blog-form label {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	color: black;
+	display: block;
+	cursor: default;
+	margin-top: 20px;
+}
+
+#block-blog-form .textbox {
+	width: 500px;
+}
+
+#block-blog-form #status {
+	clear: both;
+	text-align: center;
+	padding: 0px;
+	margin: 10px auto 0px auto;
+}
+
+#block-blog-form #submit-wrapper {
+	clear: left;
+	float: left;
+	padding: 5px 2px 0px 2px;
+	text-align: left;
+}
+
+#block-blog-form .description {
+	clear: left;
+	float: left;
+	text-shadow: 0px 1px 0px white;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 1.286em;
+}
+
+#block-blog-form #response {
+	clear: left;
+	float: left;
+	width: 170px;
+	margin: 0px 0px 8px 0px;
+}
+
+#block-blog-form #submit-wrapper #submit {
+	clear: left;
+	float: left;
+	display: block;
+}
+
+#block-blog-form #captcha-wrapper {
+	clear: right;
+	float: right;
+	padding: 5px 2px 0px 2px;
+}
+
+#block-blog-form #captcha {
+	clear: right;
+	float: right;
+	display: block;
+	border: solid 1px #CCC;
+}
+
+#block-blog-form .footer {
+	clear: both;
+	text-align: center;
+	text-shadow: 0px 1px 0px white;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 1.286em;
+	padding: 10px 0px 2px 0px;
+}
+
+#block-blog-wall /* "Blog Wall" block style */ {
+	clear: both;
+	background-color: white;
+	padding: 10px 20px 20px 20px;
+	width: 700px;
+	margin: 15px auto 0px auto;
+	box-shadow: 0px 1px 3px #666;
+	-moz-box-shadow: 0px 0px 3px #666;
+	-webkit-box-shadow: 0px 0px 3px #666;
+	position: relative;
+}
+
+#block-blog-wall .subscribe {
+	position: absolute;
+	top: 5px;
+	right: 21px;
+}
+
+#block-blog-wall .subscribe .label-text {
+	height: 15px;
+	float: right;
+	display: none;
+}
+
+#block-blog-wall .subscribe .email-icon {
+	background-image: url("https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/email_icon.png");
+	background-repeat: none;
+	background-position: left top;
+	margin-right: 2px;
+	width: 56px;
+	height: 15px;
+	float: right;
+}
+
+#block-blog-wall .subscribe .rss-icon {
+	background-image: url("https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/rss_icon.png");
+	background-repeat: none;
+	background-position: left top;
+	width: 38px;
+	height: 15px;
+	float: right;
+}
+
+#block-blog-wall .title {
+	border-bottom: dotted 1px #CCC;
+	text-align: center;
+	font-style: normal;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	font-size: 20px;
+	clear: both;
+}
+
+#block-blog-wall .comment {
+	padding: 15px;
+	margin-top: 20px;
+	background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/bgComments.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;
+	border: double 3px #CCC;
+}
+
+#block-blog-wall .comment-subject {
+	text-decoration: underline;
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+	color: #C4856C;
+}
+
+#block-blog-wall .comment-details {
+	font-size: 12px;
+	font-style: italic;
+}
+
+#block-blog-wall .comment-details .username {
+	font-weight: bold;
+}
+
+#block-blog-wall .comment-message p {
+	
+}
+
+#block-story-bios {
+	width: 900px;
+	margin: 0px auto 25px auto;
+}
+
+#block-story-bios #lisa {
+	width: 400px;
+	clear: left;
+	float: left;
+	text-align: left;
+}
+
+#block-story-bios #kyle {
+	width: 400px;
+	clear: right;
+	float: right;
+	text-align: right;
+}
+
+#block-story-bios #lisa h2.bgFlag {
+	clear: both;
+	float: left;
+}
+
+#block-story-bios #kyle h2.bgFlag {
+	clear: both;
+	float: right;
+}
+
+#block-story-timeline {
+	clear: both;
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	width: 900px;
+	margin: 0px auto 0px auto;
+	box-shadow: 0px 1px 3px #666;
+	-moz-box-shadow: 0px 0px 3px #666;
+	-webkit-box-shadow: 0px 0px 3px #666;
+}
+
+#block-story-timeline .title {
+	border-bottom: dotted 1px #CCC;
+}
+
+#block-story-timeline #lyleTitle {
+	clear: both;
+	width: 400px;
+	margin: 30px auto 10px auto;
+	text-align: center;
+}
+
+#block-story-timeline #lyleTitle p {
+	color: #777;
+	font-size: 36px;
+	font-style: italic;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-weight: 100;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 0px #EADFDC;
+}
+
+#block-story-timeline #lyle {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+}
+
+#block-story-timeline #lisa {
+	float: left;
+	text-align: right;
+	padding-top: 20px;
+}
+
+#block-story-timeline #kyle {
+	float: right;
+	text-align: left;
+	padding-top: 20px;
+}
+
+#block-story-timeline #story {
+	clear: both;
+	width: 825px;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+}
+
+#block-story-timeline #story .paragraph {
+	font-size: 1.15em;
+	line-height: 1.75em;
+	text-align: justify;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	text-indent: 1.5em;
+}
+#block-story-timeline #story .paragraph .large {
+	font-size: 1.75em;
+	line-height: 0.75em;
+}
+
+#block-story-timeline #story .quote {
+	font-style: italic;
+	text-align: justify;
+	width: 400px;
+	margin: 0px auto 0px auto;
+	padding: 15px;
+	background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/bgComments.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;
+	border: double 3px #CCC;
+}
+
+#block-gallery-albums {
+	clear: both;
+	width: 980px;
+	margin: 20px auto 30px auto;
+}
+
+#block-gallery-albums .header {
+}
+
+#block-gallery-albums .album-link {
+	width: 221px;
+	margin: 12px;
+	float: left;
+}
+
+#block-gallery-albums .album-link a {
+	color: white;
+}
+
+#block-gallery-albums .album-link a:hover {
+	color: #C4856C;
+	text-decoration: none;
+}
+
+#block-gallery-albums .album-link span.gallery {
+	color: inherit;
+}
+
+#block-gallery-albums .album-link span.gallery:hover {
+	color: inherit;
+}
+
+#block-gallery-albums .footer {
+	clear: both;
+}
+
+#block-gallery-empty {
+	clear: both;
+	width: 800px;
+	margin: 20px auto 20px auto;
+}
+
+#block-gallery-empty .header {
+}
+
+#block-gallery-empty .image {
+	clear: left;
+	float: left;
+	width: 265px;
+	height: 255px;
+	background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/photographer.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#block-gallery-empty .content {
+	clear: right;
+	float: right;
+	width: 450px;
+	padding: 20px 40px;
+}
+
+#block-gallery-empty .footer {
+	clear: both;
+}
+
+#block-gallery-thumbnails {
+	width: 978px;
+	margin: 20px auto 20px auto;
+}
+
+#block-gallery-thumbnails .header {
+	clear: both;
+}
+
+#block-gallery-thumbnails .thumbnail {
+	float: left;
+	margin: 7px;
+	background: white;
+	width: 230px;
+	height: 230px;
+	-moz-box-shadow: 0 0 3px #666;
+	-webkit-box-shadow: 0 0 3px #666;
+	box-shadow: 0 0 3px #666;
+}
+
+#block-gallery-thumbnails .thumbnail img {
+	background-color: white;
+	padding: 5px;
+	opacity: 1;
+	-moz-transition-property: opacity;
+	-moz-transition-duration: .3s;
+	-moz-transition-delay: 0s;
+	-webkit-transition-property: opacity;
+	-webkit-transition-duration: .3s;
+	-webkit-transition-delay: 0s;
+	-o-transition-property: opacity;
+	-o-transition-duration: .3s;
+	-o-transition-delay: 0s;
+	transition-property: opacity;
+	transition-duration: .3s;
+	transition-delay: 0s;
+}
+
+#block-gallery-thumbnails .thumbnail img:hover {
+	opacity: 0.5;
+	filter: alpha(opacity = 50); /* For IE8 and earlier */
+}
+
+#block-gallery-thumbnails .footer {
+	clear: both;
+}
+
+#block-rss-warning {
+	clear: both;
+	width: 800px;
+	margin: 0px auto 50px auto;
+}
+
+#block-rss-warning .header {
+}
+
+#block-rss-warning .image {
+	clear: left;
+	float: left;
+	width: 256px;
+	height: 256px;
+	background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/chrome.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#block-rss-warning .content {
+	clear: right;
+	float: right;
+	width: 450px;
+	padding: 30px 40px 0px 40px;
+}
+
+#block-rss-warning .footer {
+	clear: both;
+}
+
+#block-weddingDay-empty {
+	clear: both;
+	width: 800px;
+	margin: 20px auto 20px auto;
+}
+
+#block-weddingDay-empty .header {
+}
+
+#block-weddingDay-empty .image {
+	clear: left;
+	float: left;
+	width: 265px;
+	height: 255px;
+	background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/wedding_flowers.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#block-weddingDay-empty .content {
+	clear: right;
+	float: right;
+	width: 450px;
+	padding: 20px 40px;
+}
+
+#block-weddingDay-empty .footer {
+	clear: both;
+}
+
+#block-info {
+	width: 920px;
+	margin: 40px auto;
+}
+
+#block-info .header{
+	clear: both;
+}
+
+#block-info .footer {
+	clear: both;
+}
+
+#block-info #resort {
+	clear: left;
+	float: left;
+	width: 260px;
+	padding: 0px 0px 0px 15px;
+}
+
+#block-info #resort p {
+	padding: 0px 0px 0px 7px;
+	margin: 0px;
+}
+
+#block-info #agent {
+	clear: right;
+	float: right;
+	width: 260px;
+	padding: 3px 0px 0px 30px; 
+}
+
+#block-info #agent h2 {
+	color: #777;
+	font-style: normal;
+	border: none;
+}
+
+#block-info #agent p {
+	padding: 0px 0px 0px 0px;
+}
+
+#block-info #video {
+	width: 327px;
+	margin: 0px auto 0px auto;
+	padding-bottom: 15px;
+	background-image: url(https://dl.dropbox.com/u/36151686/sites/themes/wedding/images/bgShadowMedium.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#block-info #video #image {
+	width: 327px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	margin: 0px auto;
+	box-shadow: 0px 1px 2px #333;
+	-moz-box-shadow: 0px 0px 2px #333;
+	-webkit-box-shadow: 0px 0px 2px #333;
+}
+
+#block-info #video #image:hover {
+	opacity: 0.75;
+	filter: alpha(opacity = 75); /* For IE8 and earlier */
+}
+
+#block-booking {
+	width: 920px;
+	margin: 20px auto;
+}
+
+#block-booking .header{
+	clear: both;
+}
+
+#block-booking .footer {
+	clear: both;
+}
+
+#block-booking #info{
+	clear: both;
+	margin: 0px auto 0px auto;
+	width: 900px;
+}
+
+#block-booking #info h2 {
+	color: #777;
+	font-style: normal;
+	padding-left: 10px;
+}
+
+#block-booking #info p {
+	padding: 0px 20px 0px 20px;
+}
+
+#block-booking #info ul {
+	padding: 0px 50px 0px 50px;
+	margin: 0px;
+}
+
+#block-booking #info li {
+	padding: 0px 0px 0px 0px;
+}
+
+#block-blog-newsletter-subscribe {
+	width: 700px;
+	margin: 20px auto 0px auto;
+}
+
+#block-blog-newsletter-subscribe .header {
+	clear: both;
+	text-align: center;
+}
+
+#block-blog-newsletter-subscribe .footer {
+	clear: both;
+}
+
+#block-blog-newsletter-subscribe #newsletter-email {
+	float: left;
+	width: 385px;
+	text-align: right;
+}
+
+#block-blog-newsletter-subscribe #newsletter-email input {
+	clear: right;
+	float: right;
+}
+
+#block-blog-newsletter-subscribe #newsletter-email label {
+	float: right;
+	height: 16px;
+	padding: 5px;
+	margin: 2px;
+}
+
+#block-blog-newsletter-subscribe #newsletter-submit {
+	float: right;
+	width: 290px;
+	text-align: left;
+	padding-top: 10px;
+}
+
+#block-blog-newsletter-unsubscribe {
+	text-align: center;
+	margin: 20px auto 0px auto;
+	width: 700px;
+}

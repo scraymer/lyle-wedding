@@ -1,0 +1,103 @@
+#block-system-admin p{
+	margin-left: 75px;
+	font-family: monospace;
+}
+
+#block-system-admin a {
+	text-decoration: none;
+	color: #C4856C;
+}
+
+#block-system-admin a:hover {
+	text-decoration: underline;
+}
+
+/* CHARTS */
+
+#block-system-admin table {
+	margin: 0px auto;
+	clear: both;
+	table-layout: fixed;
+}
+
+#block-system-admin table td {
+	padding: 10px;
+	font-family: monospace;
+	font-size: medium;
+	border: solid 1px #CCC;
+	vertical-align: top;
+	word-break: break-word;
+}
+
+#block-system-admin table tr:hover {
+	background-color: #CCC;
+	cursor: pointer;
+}
+
+#block-system-admin table th {
+	color: #FFF;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: medium;
+	text-transform: capitalize;
+	text-decoration: underline;
+	background-color: #999;
+	border: solid 1px #CCC;
+	padding: 5px 7px;
+}
+
+#block-system-admin table .center {
+	text-align: center;
+}
+
+#block-system-admin table .left {
+	text-align: left;
+}
+
+/* ERROR CHART */
+
+#block-system-admin table #code {
+	width: 50px;
+}
+
+#block-system-admin table #level {
+	width: 50px;
+}
+
+#block-system-admin table #file {
+	width: 250px;
+}
+
+#block-system-admin table #desc {
+	width: 500px;
+}
+
+/* BLOG ADMIN */
+
+#block-system-admin table #id {
+	width: 30px;
+}
+
+#block-system-admin table #date {
+	width: 90px;
+}
+
+#block-system-admin table #username {
+	width: 100px;
+}
+
+#block-system-admin table #subject {
+	width: 150px;
+}
+
+#block-system-admin table #message {
+	width: 300px;
+}
+
+#block-system-admin table #status {
+	width: 70px;
+}
+
+#block-system-admin table #action {
+	width: 60px;
+}
